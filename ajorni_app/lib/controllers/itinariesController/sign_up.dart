@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:maidme_app/controllers/constants.dart';
-import 'package:maidme_app/controllers/serviceProvider/activities_page.dart';
+import 'package:maidme_app/controllers/itinariesController/activities_page.dart';
 import 'package:maidme_app/widgets/raw_widgets.dart';
 
 class SignupController extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:maidme_app/controllers/constants.dart';
 import 'package:maidme_app/controllers/home_controller/home_page.dart';
-import 'package:maidme_app/controllers/serviceProvider/sign_up.dart';
+import 'package:maidme_app/controllers/itinariesController/sign_up.dart';
 
 class DrawerPage extends StatefulWidget {
   static final id = 'drawer_page';

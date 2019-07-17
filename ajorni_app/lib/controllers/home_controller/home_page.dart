@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:maidme_app/controllers/constants.dart';
+import 'package:maidme_app/controllers/itinariesController/itinary_detail.dart';
 import 'package:maidme_app/controllers/models/user_model.dart';
 import 'package:maidme_app/controllers/raw_data.dart';
-import 'package:maidme_app/controllers/serviceProvider/itinary_detail.dart';
 
 class HomePage extends StatefulWidget {
   @override

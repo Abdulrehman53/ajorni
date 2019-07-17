@@ -4,9 +4,9 @@ import 'package:dragable_flutter_list/dragable_flutter_list.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:maidme_app/controllers/constants.dart';
+import 'package:maidme_app/controllers/itinariesController/create_activity.dart';
 import 'package:maidme_app/controllers/models/user_model.dart';
 import 'package:maidme_app/controllers/raw_data.dart';
-import 'package:maidme_app/controllers/serviceProvider/create_activity.dart';
 import 'package:maidme_app/widgets/raw_widgets.dart';
 
 class ActivitiesController extends StatefulWidget {

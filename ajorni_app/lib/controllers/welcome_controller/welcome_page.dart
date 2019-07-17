@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:maidme_app/controllers/constants.dart';
-import 'package:maidme_app/controllers/serviceProvider/login_screen.dart';
-import 'package:maidme_app/controllers/serviceProvider/personal_information_page.dart';
+import 'package:maidme_app/controllers/itinariesController/login_screen.dart';
+import 'package:maidme_app/controllers/itinariesController/personal_information_page.dart';
 import 'package:maidme_app/widgets/raw_widgets.dart';
 
 class WelcomeController extends StatefulWidget {

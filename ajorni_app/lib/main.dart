@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:maidme_app/controllers/home_controller/drawer_page.dart';
-import 'package:maidme_app/controllers/serviceProvider/create_activity.dart';
-import 'package:maidme_app/controllers/serviceProvider/login_screen.dart';
+import 'package:maidme_app/controllers/itinariesController/create_activity.dart';
+import 'package:maidme_app/controllers/itinariesController/login_screen.dart';
 
-import 'controllers/serviceProvider//number_registration.dart';
-import 'controllers/serviceProvider//sign_up.dart';
-import 'controllers/serviceProvider/activities_page.dart';
-import 'controllers/serviceProvider/confirmation_screen.dart';
-import 'controllers/serviceProvider/itinary_detail.dart';
-import 'controllers/serviceProvider/personal_information_page.dart';
+import 'controllers/itinariesController//sign_up.dart';
+import 'controllers/itinariesController/activities_page.dart';
+import 'controllers/itinariesController/itinary_detail.dart';
+import 'controllers/itinariesController/personal_information_page.dart';
 import 'controllers/welcome_controller/welcome_page.dart';
 
 void main() => runApp(MyApp());
@@ -28,8 +26,6 @@ class MyApp extends StatelessWidget {
         CreateActivityController.id: (context) => CreateActivityController(),
         ActivitiesController.id: (context) => ActivitiesController(),
         SignupController.id: (context) => SignupController(),
-        NumberRegistration.id: (context) => NumberRegistration(),
-        ConfirmationController.id: (context) => ConfirmationController(),
         LoginController.id: (context) => LoginController(),
         DrawerPage.id: (context) => DrawerPage(),
         PersonalInformationController.id: (context) =>
